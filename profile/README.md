@@ -1,19 +1,32 @@
-## 你好 👋
+### LeanSD精益软件设计/DDD示例项目
 
-这个空间的工程是“演进式设计”方法的演示和检验，也是“DDD”设计思想的体现。
+LeanSD包含了一系列代码仓库。
+它的设计目标是作为一个精益软件设计方法论的示例项目，为开发者提供一个有益的参考。
+同时，它也可以作为开发者学习领域驱动设计（DDD）、测试驱动开发（TDD）、实例化需求（SBE）等方法的案例。
+本项目中开发过程中使用了大模型工具，所以也是一个使用大模型开展软件工程活动的尝试。
 
-项目仅用于**教学和演示用途**，不能用于任何生产，这一点与一般开源软件不同。
+#### 精益软件设计框架
+精益软件设计框架是以精益思想为基础，融合了精益需求分析、领域模型和领域驱动设计、敏捷开发（特别是极限编程）等工程实践的一组实践框架。
+通过连接这些彼此关联的实践，构建一个完整的工程技术方法论，高效完成开发过程。
+
+#### 案例使用说明
+本案例的背景是“共享出行”业务。
+
+产品由共享出行业务后端（核心域）、微信小程序用户前端、Keycloak认证服务等构成。
+本案例的代码被设计为接近生产要求，但是不是一个完整的产品。
+
+“演进式设计”是LeanSD方法论的重要构成部分，所以，项目的演化历史也是案例的重要构成部分。
+
+#### 许可
+
+本项目（LeanSD下的所有项目）采用双许可策略：
+
+- **开源许可**：项目在 [Affero GPL](https://www.gnu.org/licenses/agpl-3.0.en.html) 下可供免费使用。这允许个人和组织免费使用、修改和分发本项目，但必须保留原许可证声明。开源许可的适用范围包括：普通开发者、高校学生和教师、以个人名义从事软件工程教育和培训的讲师等。
+
+- **商业许可**：如果您希望基于本项目提供的框架和代码开展商业业务活动，您应该申请商业许可。更多关于商业许可的信息，请查阅 [商业许可说明](LICENSE-COMMERCIAL)。
 
 
+#### 贡献者列表
+* 张刚  (gangz@emergentdesign.cn)
+* 雷晓宝 (lxbzmy@gmail.com)
 
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
